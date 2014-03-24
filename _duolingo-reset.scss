@@ -1,0 +1,12 @@
+.flair, .link .flair {
+  font-size:       $flair-size-reset;
+  letter-spacing:  $flair-spacing-reset;
+  color:           $flair-color-reset;
+}
+
+.flair:before {
+  font-size:       $flair-size-display;
+  letter-spacing:  $flair-spacing-display;
+  color:           $flair-color-display;
+  text-transform:  uppercase;
+}
