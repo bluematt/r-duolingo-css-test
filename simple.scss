@@ -1,0 +1,101 @@
+@import 'duolingo-variables';
+@import 'duolingo-reset';
+@import 'library';
+
+$defined: ();
+
+@each $l1 in $flair-languages {
+
+  @if not index($defined, $l1) {
+    .flair[title~=#{$l1}]:before {
+      content:
+        url(%%#{$l1}%%) ' '
+      ;
+    }
+    $defined: append($defined, $l1) !global;
+    @debug $defined;
+  }
+
+  @each $l2 in $flair-languages {
+    $combo: sort($l1 $l2);
+    $def: str-implode($combo);
+    $def: str-replace($def, ' ', '');
+    // @debug $def;
+
+    @if not index($defined, $def) and $l1 != $l2 {
+      .flair[title~=#{$l1}][title~=#{$l2}]:before {
+        content:
+          url(%%#{$l1}%%) ' '
+          url(%%#{$l2}%%) ' '
+        ;
+      }
+      $defined: append($defined, $def) !global;
+      @debug $defined;
+    }
+
+    @each $l3 in $flair-languages {
+      $combo: sort($l1 $l2 $l3);
+      $def: str-implode($combo);
+      $def: str-replace($def, ' ', '');
+      // @debug $def;
+
+      @if not index($defined, $def) and $l1 != $l2 and $l1 != $l3 and $l2 != $l3 {
+        .flair[title~=#{$l1}][title~=#{$l2}][title~=#{$l3}]:before {
+          content:
+            url(%%#{$l1}%%) ' '
+            url(%%#{$l2}%%) ' '
+            url(%%#{$l3}%%) ' '
+          ;
+        }
+        $defined: append($defined, $def) !global;
+        @debug $defined;
+      }
+
+      @each $l4 in $flair-languages {
+        $combo: sort($l1 $l2 $l3 $l4);
+        $def: str-implode($combo);
+        $def: str-replace($def, ' ', '');
+        // @debug $def;
+
+        @if not index($defined, $def) and $l1 != $l2 and $l1 != $l3 and $l1 != $l4 and $l2 != $l3 and $l2 != $l4 and $l3 != $l4 {
+          .flair[title~=#{$l1}][title~=#{$l2}][title~=#{$l3}][title~=#{$l4}]:before {
+            content:
+              url(%%#{$l1}%%) ' '
+              url(%%#{$l2}%%) ' '
+              url(%%#{$l3}%%) ' '
+              url(%%#{$l4}%%) ' '
+            ;
+          }
+          $defined: append($defined, $def) !global;
+          @debug $defined;
+        }
+
+        @each $l5 in $flair-languages {
+          $combo: sort($l1 $l2 $l3 $l4 $l5);
+          $def: str-implode($combo);
+          $def: str-replace($def, ' ', '');
+          // @debug $def;
+
+          @if not index($defined, $def) and $l1 != $l2 and $l1 != $l3 and $l1 != $l4 and $l1 != $l5 and $l2 != $l3 and $l2 != $l4 and $l2 != $l5 and $l3 != $l4 and $l3 != $l5 and $l4 != $l5 {
+            .flair[title~=#{$l1}][title~=#{$l2}][title~=#{$l3}][title~=#{$l4}][title~=#{$l5}]:before {
+              content:
+                url(%%#{$l1}%%) ' '
+                url(%%#{$l2}%%) ' '
+                url(%%#{$l3}%%) ' '
+                url(%%#{$l4}%%) ' '
+                url(%%#{$l5}%%) ' '
+              ;
+            }
+            $defined: append($defined, $def) !global;
+            @debug $defined;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}

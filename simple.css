@@ -1,0 +1,610 @@
+/* line 1, _duolingo-reset.scss */
+.flair, .link .flair {
+  font-size: 1px;
+  letter-spacing: -1px;
+  color: white;
+  width: auto;
+}
+
+/* line 8, _duolingo-reset.scss */
+.flair:before {
+  font-size: 10px;
+  letter-spacing: normal;
+  color: black;
+  text-transform: uppercase;
+}
+
+/* line 10, simple.scss */
+.flair[title~=en]:before {
+  content: url(%%en%%) " ";
+}
+
+/* line 26, simple.scss */
+.flair[title~=en][title~=de]:before {
+  content: url(%%en%%) " " url(%%de%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=en][title~=de][title~=fr]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=en][title~=de][title~=fr][title~=eo]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " ";
+}
+
+/* line 80, simple.scss */
+.flair[title~=en][title~=de][title~=fr][title~=eo][title~=es]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " ";
+}
+
+/* line 80, simple.scss */
+.flair[title~=en][title~=de][title~=fr][title~=eo][title~=pt]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%pt%%) " ";
+}
+
+/* line 80, simple.scss */
+.flair[title~=en][title~=de][title~=fr][title~=eo][title~=ru]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%ru%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=en][title~=de][title~=fr][title~=es]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " " url(%%es%%) " ";
+}
+
+/* line 80, simple.scss */
+.flair[title~=en][title~=de][title~=fr][title~=es][title~=pt]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " " url(%%es%%) " " url(%%pt%%) " ";
+}
+
+/* line 80, simple.scss */
+.flair[title~=en][title~=de][title~=fr][title~=es][title~=ru]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " " url(%%es%%) " " url(%%ru%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=en][title~=de][title~=fr][title~=pt]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " " url(%%pt%%) " ";
+}
+
+/* line 80, simple.scss */
+.flair[title~=en][title~=de][title~=fr][title~=pt][title~=ru]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=en][title~=de][title~=fr][title~=ru]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " " url(%%ru%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=en][title~=de][title~=eo]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%eo%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=en][title~=de][title~=eo][title~=es]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%eo%%) " " url(%%es%%) " ";
+}
+
+/* line 80, simple.scss */
+.flair[title~=en][title~=de][title~=eo][title~=es][title~=pt]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " ";
+}
+
+/* line 80, simple.scss */
+.flair[title~=en][title~=de][title~=eo][title~=es][title~=ru]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%ru%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=en][title~=de][title~=eo][title~=pt]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%eo%%) " " url(%%pt%%) " ";
+}
+
+/* line 80, simple.scss */
+.flair[title~=en][title~=de][title~=eo][title~=pt][title~=ru]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%eo%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=en][title~=de][title~=eo][title~=ru]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%eo%%) " " url(%%ru%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=en][title~=de][title~=es]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%es%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=en][title~=de][title~=es][title~=pt]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%es%%) " " url(%%pt%%) " ";
+}
+
+/* line 80, simple.scss */
+.flair[title~=en][title~=de][title~=es][title~=pt][title~=ru]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=en][title~=de][title~=es][title~=ru]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%es%%) " " url(%%ru%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=en][title~=de][title~=pt]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%pt%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=en][title~=de][title~=pt][title~=ru]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=en][title~=de][title~=ru]:before {
+  content: url(%%en%%) " " url(%%de%%) " " url(%%ru%%) " ";
+}
+
+/* line 26, simple.scss */
+.flair[title~=en][title~=fr]:before {
+  content: url(%%en%%) " " url(%%fr%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=en][title~=fr][title~=eo]:before {
+  content: url(%%en%%) " " url(%%fr%%) " " url(%%eo%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=en][title~=fr][title~=eo][title~=es]:before {
+  content: url(%%en%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " ";
+}
+
+/* line 80, simple.scss */
+.flair[title~=en][title~=fr][title~=eo][title~=es][title~=pt]:before {
+  content: url(%%en%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " ";
+}
+
+/* line 80, simple.scss */
+.flair[title~=en][title~=fr][title~=eo][title~=es][title~=ru]:before {
+  content: url(%%en%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%ru%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=en][title~=fr][title~=eo][title~=pt]:before {
+  content: url(%%en%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%pt%%) " ";
+}
+
+/* line 80, simple.scss */
+.flair[title~=en][title~=fr][title~=eo][title~=pt][title~=ru]:before {
+  content: url(%%en%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=en][title~=fr][title~=eo][title~=ru]:before {
+  content: url(%%en%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%ru%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=en][title~=fr][title~=es]:before {
+  content: url(%%en%%) " " url(%%fr%%) " " url(%%es%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=en][title~=fr][title~=es][title~=pt]:before {
+  content: url(%%en%%) " " url(%%fr%%) " " url(%%es%%) " " url(%%pt%%) " ";
+}
+
+/* line 80, simple.scss */
+.flair[title~=en][title~=fr][title~=es][title~=pt][title~=ru]:before {
+  content: url(%%en%%) " " url(%%fr%%) " " url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=en][title~=fr][title~=es][title~=ru]:before {
+  content: url(%%en%%) " " url(%%fr%%) " " url(%%es%%) " " url(%%ru%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=en][title~=fr][title~=pt]:before {
+  content: url(%%en%%) " " url(%%fr%%) " " url(%%pt%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=en][title~=fr][title~=pt][title~=ru]:before {
+  content: url(%%en%%) " " url(%%fr%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=en][title~=fr][title~=ru]:before {
+  content: url(%%en%%) " " url(%%fr%%) " " url(%%ru%%) " ";
+}
+
+/* line 26, simple.scss */
+.flair[title~=en][title~=eo]:before {
+  content: url(%%en%%) " " url(%%eo%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=en][title~=eo][title~=es]:before {
+  content: url(%%en%%) " " url(%%eo%%) " " url(%%es%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=en][title~=eo][title~=es][title~=pt]:before {
+  content: url(%%en%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " ";
+}
+
+/* line 80, simple.scss */
+.flair[title~=en][title~=eo][title~=es][title~=pt][title~=ru]:before {
+  content: url(%%en%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=en][title~=eo][title~=es][title~=ru]:before {
+  content: url(%%en%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%ru%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=en][title~=eo][title~=pt]:before {
+  content: url(%%en%%) " " url(%%eo%%) " " url(%%pt%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=en][title~=eo][title~=pt][title~=ru]:before {
+  content: url(%%en%%) " " url(%%eo%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=en][title~=eo][title~=ru]:before {
+  content: url(%%en%%) " " url(%%eo%%) " " url(%%ru%%) " ";
+}
+
+/* line 26, simple.scss */
+.flair[title~=en][title~=es]:before {
+  content: url(%%en%%) " " url(%%es%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=en][title~=es][title~=pt]:before {
+  content: url(%%en%%) " " url(%%es%%) " " url(%%pt%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=en][title~=es][title~=pt][title~=ru]:before {
+  content: url(%%en%%) " " url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=en][title~=es][title~=ru]:before {
+  content: url(%%en%%) " " url(%%es%%) " " url(%%ru%%) " ";
+}
+
+/* line 26, simple.scss */
+.flair[title~=en][title~=pt]:before {
+  content: url(%%en%%) " " url(%%pt%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=en][title~=pt][title~=ru]:before {
+  content: url(%%en%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 26, simple.scss */
+.flair[title~=en][title~=ru]:before {
+  content: url(%%en%%) " " url(%%ru%%) " ";
+}
+
+/* line 10, simple.scss */
+.flair[title~=de]:before {
+  content: url(%%de%%) " ";
+}
+
+/* line 26, simple.scss */
+.flair[title~=de][title~=fr]:before {
+  content: url(%%de%%) " " url(%%fr%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=de][title~=fr][title~=eo]:before {
+  content: url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=de][title~=fr][title~=eo][title~=es]:before {
+  content: url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " ";
+}
+
+/* line 80, simple.scss */
+.flair[title~=de][title~=fr][title~=eo][title~=es][title~=pt]:before {
+  content: url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " ";
+}
+
+/* line 80, simple.scss */
+.flair[title~=de][title~=fr][title~=eo][title~=es][title~=ru]:before {
+  content: url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%ru%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=de][title~=fr][title~=eo][title~=pt]:before {
+  content: url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%pt%%) " ";
+}
+
+/* line 80, simple.scss */
+.flair[title~=de][title~=fr][title~=eo][title~=pt][title~=ru]:before {
+  content: url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=de][title~=fr][title~=eo][title~=ru]:before {
+  content: url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%ru%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=de][title~=fr][title~=es]:before {
+  content: url(%%de%%) " " url(%%fr%%) " " url(%%es%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=de][title~=fr][title~=es][title~=pt]:before {
+  content: url(%%de%%) " " url(%%fr%%) " " url(%%es%%) " " url(%%pt%%) " ";
+}
+
+/* line 80, simple.scss */
+.flair[title~=de][title~=fr][title~=es][title~=pt][title~=ru]:before {
+  content: url(%%de%%) " " url(%%fr%%) " " url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=de][title~=fr][title~=es][title~=ru]:before {
+  content: url(%%de%%) " " url(%%fr%%) " " url(%%es%%) " " url(%%ru%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=de][title~=fr][title~=pt]:before {
+  content: url(%%de%%) " " url(%%fr%%) " " url(%%pt%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=de][title~=fr][title~=pt][title~=ru]:before {
+  content: url(%%de%%) " " url(%%fr%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=de][title~=fr][title~=ru]:before {
+  content: url(%%de%%) " " url(%%fr%%) " " url(%%ru%%) " ";
+}
+
+/* line 26, simple.scss */
+.flair[title~=de][title~=eo]:before {
+  content: url(%%de%%) " " url(%%eo%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=de][title~=eo][title~=es]:before {
+  content: url(%%de%%) " " url(%%eo%%) " " url(%%es%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=de][title~=eo][title~=es][title~=pt]:before {
+  content: url(%%de%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " ";
+}
+
+/* line 80, simple.scss */
+.flair[title~=de][title~=eo][title~=es][title~=pt][title~=ru]:before {
+  content: url(%%de%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=de][title~=eo][title~=es][title~=ru]:before {
+  content: url(%%de%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%ru%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=de][title~=eo][title~=pt]:before {
+  content: url(%%de%%) " " url(%%eo%%) " " url(%%pt%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=de][title~=eo][title~=pt][title~=ru]:before {
+  content: url(%%de%%) " " url(%%eo%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=de][title~=eo][title~=ru]:before {
+  content: url(%%de%%) " " url(%%eo%%) " " url(%%ru%%) " ";
+}
+
+/* line 26, simple.scss */
+.flair[title~=de][title~=es]:before {
+  content: url(%%de%%) " " url(%%es%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=de][title~=es][title~=pt]:before {
+  content: url(%%de%%) " " url(%%es%%) " " url(%%pt%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=de][title~=es][title~=pt][title~=ru]:before {
+  content: url(%%de%%) " " url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=de][title~=es][title~=ru]:before {
+  content: url(%%de%%) " " url(%%es%%) " " url(%%ru%%) " ";
+}
+
+/* line 26, simple.scss */
+.flair[title~=de][title~=pt]:before {
+  content: url(%%de%%) " " url(%%pt%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=de][title~=pt][title~=ru]:before {
+  content: url(%%de%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 26, simple.scss */
+.flair[title~=de][title~=ru]:before {
+  content: url(%%de%%) " " url(%%ru%%) " ";
+}
+
+/* line 10, simple.scss */
+.flair[title~=fr]:before {
+  content: url(%%fr%%) " ";
+}
+
+/* line 26, simple.scss */
+.flair[title~=fr][title~=eo]:before {
+  content: url(%%fr%%) " " url(%%eo%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=fr][title~=eo][title~=es]:before {
+  content: url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=fr][title~=eo][title~=es][title~=pt]:before {
+  content: url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " ";
+}
+
+/* line 80, simple.scss */
+.flair[title~=fr][title~=eo][title~=es][title~=pt][title~=ru]:before {
+  content: url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=fr][title~=eo][title~=es][title~=ru]:before {
+  content: url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%ru%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=fr][title~=eo][title~=pt]:before {
+  content: url(%%fr%%) " " url(%%eo%%) " " url(%%pt%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=fr][title~=eo][title~=pt][title~=ru]:before {
+  content: url(%%fr%%) " " url(%%eo%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=fr][title~=eo][title~=ru]:before {
+  content: url(%%fr%%) " " url(%%eo%%) " " url(%%ru%%) " ";
+}
+
+/* line 26, simple.scss */
+.flair[title~=fr][title~=es]:before {
+  content: url(%%fr%%) " " url(%%es%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=fr][title~=es][title~=pt]:before {
+  content: url(%%fr%%) " " url(%%es%%) " " url(%%pt%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=fr][title~=es][title~=pt][title~=ru]:before {
+  content: url(%%fr%%) " " url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=fr][title~=es][title~=ru]:before {
+  content: url(%%fr%%) " " url(%%es%%) " " url(%%ru%%) " ";
+}
+
+/* line 26, simple.scss */
+.flair[title~=fr][title~=pt]:before {
+  content: url(%%fr%%) " " url(%%pt%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=fr][title~=pt][title~=ru]:before {
+  content: url(%%fr%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 26, simple.scss */
+.flair[title~=fr][title~=ru]:before {
+  content: url(%%fr%%) " " url(%%ru%%) " ";
+}
+
+/* line 10, simple.scss */
+.flair[title~=eo]:before {
+  content: url(%%eo%%) " ";
+}
+
+/* line 26, simple.scss */
+.flair[title~=eo][title~=es]:before {
+  content: url(%%eo%%) " " url(%%es%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=eo][title~=es][title~=pt]:before {
+  content: url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " ";
+}
+
+/* line 61, simple.scss */
+.flair[title~=eo][title~=es][title~=pt][title~=ru]:before {
+  content: url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=eo][title~=es][title~=ru]:before {
+  content: url(%%eo%%) " " url(%%es%%) " " url(%%ru%%) " ";
+}
+
+/* line 26, simple.scss */
+.flair[title~=eo][title~=pt]:before {
+  content: url(%%eo%%) " " url(%%pt%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=eo][title~=pt][title~=ru]:before {
+  content: url(%%eo%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 26, simple.scss */
+.flair[title~=eo][title~=ru]:before {
+  content: url(%%eo%%) " " url(%%ru%%) " ";
+}
+
+/* line 10, simple.scss */
+.flair[title~=es]:before {
+  content: url(%%es%%) " ";
+}
+
+/* line 26, simple.scss */
+.flair[title~=es][title~=pt]:before {
+  content: url(%%es%%) " " url(%%pt%%) " ";
+}
+
+/* line 43, simple.scss */
+.flair[title~=es][title~=pt][title~=ru]:before {
+  content: url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 26, simple.scss */
+.flair[title~=es][title~=ru]:before {
+  content: url(%%es%%) " " url(%%ru%%) " ";
+}
+
+/* line 10, simple.scss */
+.flair[title~=pt]:before {
+  content: url(%%pt%%) " ";
+}
+
+/* line 26, simple.scss */
+.flair[title~=pt][title~=ru]:before {
+  content: url(%%pt%%) " " url(%%ru%%) " ";
+}
+
+/* line 10, simple.scss */
+.flair[title~=ru]:before {
+  content: url(%%ru%%) " ";
+}
