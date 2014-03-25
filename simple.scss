@@ -1,11 +1,15 @@
+/* @todo: We can certainly improve this with some recursion... */
+
 @import 'duolingo-variables';
 @import 'duolingo-reset';
 @import 'library';
 
+/* Somewhere to store which language combinations we've already catered for. */
 $defined: ();
 
 @each $l1 in $flair-languages {
 
+  /* Create single language combinations. */
   @if not index($defined, $l1) {
     .flair[title~=#{$l1}]:before {
       content:
@@ -13,7 +17,7 @@ $defined: ();
       ;
     }
     $defined: append($defined, $l1) !global;
-    @debug $defined;
+    // @debug $defined;
   }
 
   @each $l2 in $flair-languages {
@@ -22,6 +26,7 @@ $defined: ();
     $def: str-replace($def, ' ', '');
     // @debug $def;
 
+    /* Create two language combinations. */
     @if not index($defined, $def) and $l1 != $l2 {
       .flair[title~=#{$l1}][title~=#{$l2}]:before {
         content:
@@ -30,7 +35,7 @@ $defined: ();
         ;
       }
       $defined: append($defined, $def) !global;
-      @debug $defined;
+      // @debug $defined;
     }
 
     @each $l3 in $flair-languages {
@@ -39,6 +44,7 @@ $defined: ();
       $def: str-replace($def, ' ', '');
       // @debug $def;
 
+      /* Create three language combinations. */
       @if not index($defined, $def) and $l1 != $l2 and $l1 != $l3 and $l2 != $l3 {
         .flair[title~=#{$l1}][title~=#{$l2}][title~=#{$l3}]:before {
           content:
@@ -48,7 +54,7 @@ $defined: ();
           ;
         }
         $defined: append($defined, $def) !global;
-        @debug $defined;
+        // @debug $defined;
       }
 
       @each $l4 in $flair-languages {
@@ -57,6 +63,7 @@ $defined: ();
         $def: str-replace($def, ' ', '');
         // @debug $def;
 
+        /* Create four language combinations. */
         @if not index($defined, $def) and $l1 != $l2 and $l1 != $l3 and $l1 != $l4 and $l2 != $l3 and $l2 != $l4 and $l3 != $l4 {
           .flair[title~=#{$l1}][title~=#{$l2}][title~=#{$l3}][title~=#{$l4}]:before {
             content:
@@ -67,7 +74,7 @@ $defined: ();
             ;
           }
           $defined: append($defined, $def) !global;
-          @debug $defined;
+          // @debug $defined;
         }
 
         @each $l5 in $flair-languages {
@@ -76,6 +83,7 @@ $defined: ();
           $def: str-replace($def, ' ', '');
           // @debug $def;
 
+          /* Create five language combinations. */
           @if not index($defined, $def) and $l1 != $l2 and $l1 != $l3 and $l1 != $l4 and $l1 != $l5 and $l2 != $l3 and $l2 != $l4 and $l2 != $l5 and $l3 != $l4 and $l3 != $l5 and $l4 != $l5 {
             .flair[title~=#{$l1}][title~=#{$l2}][title~=#{$l3}][title~=#{$l4}][title~=#{$l5}]:before {
               content:
@@ -87,7 +95,7 @@ $defined: ();
               ;
             }
             $defined: append($defined, $def) !global;
-            @debug $defined;
+            // @debug $defined;
           }
 
         }
