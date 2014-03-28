@@ -6,12 +6,8 @@
   width:           auto;
 }
 
-<<<<<<< HEAD
 .flair:after {
-=======
-/* Reset the :before pseudoclass of the <span class="flair" /> element to something sensible. */
-.flair:before {
->>>>>>> FETCH_HEAD
+/* Reset the :after pseudoclass of the <span class="flair" /> element to something sensible. */
   font-size:       $flair-size-display;
   letter-spacing:  $flair-spacing-display;
   color:           $flair-color-display;
