@@ -1,610 +1,757 @@
-/* line 1, _duolingo-reset.scss */
-.flair, .link .flair {
-  font-size: 1px;
-  letter-spacing: -1px;
-  color: white;
-  width: auto;
-}
-
-/* line 8, _duolingo-reset.scss */
-.flair:before {
-  font-size: 10px;
-  letter-spacing: normal;
-  color: black;
-  text-transform: uppercase;
-}
-
-/* line 10, simple.scss */
-.flair[title~=en]:before {
-  content: url(%%en%%) " ";
-}
-
-/* line 26, simple.scss */
-.flair[title~=en][title~=de]:before {
-  content: url(%%en%%) " " url(%%de%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=en][title~=de][title~=fr]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=en][title~=de][title~=fr][title~=eo]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " ";
-}
-
-/* line 80, simple.scss */
-.flair[title~=en][title~=de][title~=fr][title~=eo][title~=es]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " ";
-}
-
-/* line 80, simple.scss */
-.flair[title~=en][title~=de][title~=fr][title~=eo][title~=pt]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%pt%%) " ";
-}
-
-/* line 80, simple.scss */
-.flair[title~=en][title~=de][title~=fr][title~=eo][title~=ru]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%ru%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=en][title~=de][title~=fr][title~=es]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " " url(%%es%%) " ";
-}
-
-/* line 80, simple.scss */
-.flair[title~=en][title~=de][title~=fr][title~=es][title~=pt]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " " url(%%es%%) " " url(%%pt%%) " ";
-}
-
-/* line 80, simple.scss */
-.flair[title~=en][title~=de][title~=fr][title~=es][title~=ru]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " " url(%%es%%) " " url(%%ru%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=en][title~=de][title~=fr][title~=pt]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " " url(%%pt%%) " ";
-}
-
-/* line 80, simple.scss */
-.flair[title~=en][title~=de][title~=fr][title~=pt][title~=ru]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=en][title~=de][title~=fr][title~=ru]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%fr%%) " " url(%%ru%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=en][title~=de][title~=eo]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%eo%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=en][title~=de][title~=eo][title~=es]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%eo%%) " " url(%%es%%) " ";
-}
-
-/* line 80, simple.scss */
-.flair[title~=en][title~=de][title~=eo][title~=es][title~=pt]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " ";
-}
-
-/* line 80, simple.scss */
-.flair[title~=en][title~=de][title~=eo][title~=es][title~=ru]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%ru%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=en][title~=de][title~=eo][title~=pt]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%eo%%) " " url(%%pt%%) " ";
-}
-
-/* line 80, simple.scss */
-.flair[title~=en][title~=de][title~=eo][title~=pt][title~=ru]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%eo%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=en][title~=de][title~=eo][title~=ru]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%eo%%) " " url(%%ru%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=en][title~=de][title~=es]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%es%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=en][title~=de][title~=es][title~=pt]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%es%%) " " url(%%pt%%) " ";
-}
-
-/* line 80, simple.scss */
-.flair[title~=en][title~=de][title~=es][title~=pt][title~=ru]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=en][title~=de][title~=es][title~=ru]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%es%%) " " url(%%ru%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=en][title~=de][title~=pt]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%pt%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=en][title~=de][title~=pt][title~=ru]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=en][title~=de][title~=ru]:before {
-  content: url(%%en%%) " " url(%%de%%) " " url(%%ru%%) " ";
-}
-
-/* line 26, simple.scss */
-.flair[title~=en][title~=fr]:before {
-  content: url(%%en%%) " " url(%%fr%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=en][title~=fr][title~=eo]:before {
-  content: url(%%en%%) " " url(%%fr%%) " " url(%%eo%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=en][title~=fr][title~=eo][title~=es]:before {
-  content: url(%%en%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " ";
-}
-
-/* line 80, simple.scss */
-.flair[title~=en][title~=fr][title~=eo][title~=es][title~=pt]:before {
-  content: url(%%en%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " ";
-}
-
-/* line 80, simple.scss */
-.flair[title~=en][title~=fr][title~=eo][title~=es][title~=ru]:before {
-  content: url(%%en%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%ru%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=en][title~=fr][title~=eo][title~=pt]:before {
-  content: url(%%en%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%pt%%) " ";
-}
-
-/* line 80, simple.scss */
-.flair[title~=en][title~=fr][title~=eo][title~=pt][title~=ru]:before {
-  content: url(%%en%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=en][title~=fr][title~=eo][title~=ru]:before {
-  content: url(%%en%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%ru%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=en][title~=fr][title~=es]:before {
-  content: url(%%en%%) " " url(%%fr%%) " " url(%%es%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=en][title~=fr][title~=es][title~=pt]:before {
-  content: url(%%en%%) " " url(%%fr%%) " " url(%%es%%) " " url(%%pt%%) " ";
-}
-
-/* line 80, simple.scss */
-.flair[title~=en][title~=fr][title~=es][title~=pt][title~=ru]:before {
-  content: url(%%en%%) " " url(%%fr%%) " " url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=en][title~=fr][title~=es][title~=ru]:before {
-  content: url(%%en%%) " " url(%%fr%%) " " url(%%es%%) " " url(%%ru%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=en][title~=fr][title~=pt]:before {
-  content: url(%%en%%) " " url(%%fr%%) " " url(%%pt%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=en][title~=fr][title~=pt][title~=ru]:before {
-  content: url(%%en%%) " " url(%%fr%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=en][title~=fr][title~=ru]:before {
-  content: url(%%en%%) " " url(%%fr%%) " " url(%%ru%%) " ";
-}
-
-/* line 26, simple.scss */
-.flair[title~=en][title~=eo]:before {
-  content: url(%%en%%) " " url(%%eo%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=en][title~=eo][title~=es]:before {
-  content: url(%%en%%) " " url(%%eo%%) " " url(%%es%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=en][title~=eo][title~=es][title~=pt]:before {
-  content: url(%%en%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " ";
-}
-
-/* line 80, simple.scss */
-.flair[title~=en][title~=eo][title~=es][title~=pt][title~=ru]:before {
-  content: url(%%en%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=en][title~=eo][title~=es][title~=ru]:before {
-  content: url(%%en%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%ru%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=en][title~=eo][title~=pt]:before {
-  content: url(%%en%%) " " url(%%eo%%) " " url(%%pt%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=en][title~=eo][title~=pt][title~=ru]:before {
-  content: url(%%en%%) " " url(%%eo%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=en][title~=eo][title~=ru]:before {
-  content: url(%%en%%) " " url(%%eo%%) " " url(%%ru%%) " ";
-}
-
-/* line 26, simple.scss */
-.flair[title~=en][title~=es]:before {
-  content: url(%%en%%) " " url(%%es%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=en][title~=es][title~=pt]:before {
-  content: url(%%en%%) " " url(%%es%%) " " url(%%pt%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=en][title~=es][title~=pt][title~=ru]:before {
-  content: url(%%en%%) " " url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=en][title~=es][title~=ru]:before {
-  content: url(%%en%%) " " url(%%es%%) " " url(%%ru%%) " ";
-}
-
-/* line 26, simple.scss */
-.flair[title~=en][title~=pt]:before {
-  content: url(%%en%%) " " url(%%pt%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=en][title~=pt][title~=ru]:before {
-  content: url(%%en%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 26, simple.scss */
-.flair[title~=en][title~=ru]:before {
-  content: url(%%en%%) " " url(%%ru%%) " ";
-}
-
-/* line 10, simple.scss */
-.flair[title~=de]:before {
-  content: url(%%de%%) " ";
-}
-
-/* line 26, simple.scss */
-.flair[title~=de][title~=fr]:before {
-  content: url(%%de%%) " " url(%%fr%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=de][title~=fr][title~=eo]:before {
-  content: url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=de][title~=fr][title~=eo][title~=es]:before {
-  content: url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " ";
-}
-
-/* line 80, simple.scss */
-.flair[title~=de][title~=fr][title~=eo][title~=es][title~=pt]:before {
-  content: url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " ";
-}
-
-/* line 80, simple.scss */
-.flair[title~=de][title~=fr][title~=eo][title~=es][title~=ru]:before {
-  content: url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%ru%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=de][title~=fr][title~=eo][title~=pt]:before {
-  content: url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%pt%%) " ";
-}
-
-/* line 80, simple.scss */
-.flair[title~=de][title~=fr][title~=eo][title~=pt][title~=ru]:before {
-  content: url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=de][title~=fr][title~=eo][title~=ru]:before {
-  content: url(%%de%%) " " url(%%fr%%) " " url(%%eo%%) " " url(%%ru%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=de][title~=fr][title~=es]:before {
-  content: url(%%de%%) " " url(%%fr%%) " " url(%%es%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=de][title~=fr][title~=es][title~=pt]:before {
-  content: url(%%de%%) " " url(%%fr%%) " " url(%%es%%) " " url(%%pt%%) " ";
-}
-
-/* line 80, simple.scss */
-.flair[title~=de][title~=fr][title~=es][title~=pt][title~=ru]:before {
-  content: url(%%de%%) " " url(%%fr%%) " " url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=de][title~=fr][title~=es][title~=ru]:before {
-  content: url(%%de%%) " " url(%%fr%%) " " url(%%es%%) " " url(%%ru%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=de][title~=fr][title~=pt]:before {
-  content: url(%%de%%) " " url(%%fr%%) " " url(%%pt%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=de][title~=fr][title~=pt][title~=ru]:before {
-  content: url(%%de%%) " " url(%%fr%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=de][title~=fr][title~=ru]:before {
-  content: url(%%de%%) " " url(%%fr%%) " " url(%%ru%%) " ";
-}
-
-/* line 26, simple.scss */
-.flair[title~=de][title~=eo]:before {
-  content: url(%%de%%) " " url(%%eo%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=de][title~=eo][title~=es]:before {
-  content: url(%%de%%) " " url(%%eo%%) " " url(%%es%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=de][title~=eo][title~=es][title~=pt]:before {
-  content: url(%%de%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " ";
-}
-
-/* line 80, simple.scss */
-.flair[title~=de][title~=eo][title~=es][title~=pt][title~=ru]:before {
-  content: url(%%de%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=de][title~=eo][title~=es][title~=ru]:before {
-  content: url(%%de%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%ru%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=de][title~=eo][title~=pt]:before {
-  content: url(%%de%%) " " url(%%eo%%) " " url(%%pt%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=de][title~=eo][title~=pt][title~=ru]:before {
-  content: url(%%de%%) " " url(%%eo%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=de][title~=eo][title~=ru]:before {
-  content: url(%%de%%) " " url(%%eo%%) " " url(%%ru%%) " ";
-}
-
-/* line 26, simple.scss */
-.flair[title~=de][title~=es]:before {
-  content: url(%%de%%) " " url(%%es%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=de][title~=es][title~=pt]:before {
-  content: url(%%de%%) " " url(%%es%%) " " url(%%pt%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=de][title~=es][title~=pt][title~=ru]:before {
-  content: url(%%de%%) " " url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=de][title~=es][title~=ru]:before {
-  content: url(%%de%%) " " url(%%es%%) " " url(%%ru%%) " ";
-}
-
-/* line 26, simple.scss */
-.flair[title~=de][title~=pt]:before {
-  content: url(%%de%%) " " url(%%pt%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=de][title~=pt][title~=ru]:before {
-  content: url(%%de%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 26, simple.scss */
-.flair[title~=de][title~=ru]:before {
-  content: url(%%de%%) " " url(%%ru%%) " ";
-}
-
-/* line 10, simple.scss */
-.flair[title~=fr]:before {
-  content: url(%%fr%%) " ";
-}
-
-/* line 26, simple.scss */
-.flair[title~=fr][title~=eo]:before {
-  content: url(%%fr%%) " " url(%%eo%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=fr][title~=eo][title~=es]:before {
-  content: url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=fr][title~=eo][title~=es][title~=pt]:before {
-  content: url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " ";
-}
-
-/* line 80, simple.scss */
-.flair[title~=fr][title~=eo][title~=es][title~=pt][title~=ru]:before {
-  content: url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=fr][title~=eo][title~=es][title~=ru]:before {
-  content: url(%%fr%%) " " url(%%eo%%) " " url(%%es%%) " " url(%%ru%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=fr][title~=eo][title~=pt]:before {
-  content: url(%%fr%%) " " url(%%eo%%) " " url(%%pt%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=fr][title~=eo][title~=pt][title~=ru]:before {
-  content: url(%%fr%%) " " url(%%eo%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=fr][title~=eo][title~=ru]:before {
-  content: url(%%fr%%) " " url(%%eo%%) " " url(%%ru%%) " ";
-}
-
-/* line 26, simple.scss */
-.flair[title~=fr][title~=es]:before {
-  content: url(%%fr%%) " " url(%%es%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=fr][title~=es][title~=pt]:before {
-  content: url(%%fr%%) " " url(%%es%%) " " url(%%pt%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=fr][title~=es][title~=pt][title~=ru]:before {
-  content: url(%%fr%%) " " url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=fr][title~=es][title~=ru]:before {
-  content: url(%%fr%%) " " url(%%es%%) " " url(%%ru%%) " ";
-}
-
-/* line 26, simple.scss */
-.flair[title~=fr][title~=pt]:before {
-  content: url(%%fr%%) " " url(%%pt%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=fr][title~=pt][title~=ru]:before {
-  content: url(%%fr%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 26, simple.scss */
-.flair[title~=fr][title~=ru]:before {
-  content: url(%%fr%%) " " url(%%ru%%) " ";
-}
-
-/* line 10, simple.scss */
-.flair[title~=eo]:before {
-  content: url(%%eo%%) " ";
-}
-
-/* line 26, simple.scss */
-.flair[title~=eo][title~=es]:before {
-  content: url(%%eo%%) " " url(%%es%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=eo][title~=es][title~=pt]:before {
-  content: url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " ";
-}
-
-/* line 61, simple.scss */
-.flair[title~=eo][title~=es][title~=pt][title~=ru]:before {
-  content: url(%%eo%%) " " url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=eo][title~=es][title~=ru]:before {
-  content: url(%%eo%%) " " url(%%es%%) " " url(%%ru%%) " ";
-}
-
-/* line 26, simple.scss */
-.flair[title~=eo][title~=pt]:before {
-  content: url(%%eo%%) " " url(%%pt%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=eo][title~=pt][title~=ru]:before {
-  content: url(%%eo%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 26, simple.scss */
-.flair[title~=eo][title~=ru]:before {
-  content: url(%%eo%%) " " url(%%ru%%) " ";
-}
-
-/* line 10, simple.scss */
-.flair[title~=es]:before {
-  content: url(%%es%%) " ";
-}
-
-/* line 26, simple.scss */
-.flair[title~=es][title~=pt]:before {
-  content: url(%%es%%) " " url(%%pt%%) " ";
-}
-
-/* line 43, simple.scss */
-.flair[title~=es][title~=pt][title~=ru]:before {
-  content: url(%%es%%) " " url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 26, simple.scss */
-.flair[title~=es][title~=ru]:before {
-  content: url(%%es%%) " " url(%%ru%%) " ";
-}
-
-/* line 10, simple.scss */
-.flair[title~=pt]:before {
-  content: url(%%pt%%) " ";
-}
-
-/* line 26, simple.scss */
-.flair[title~=pt][title~=ru]:before {
-  content: url(%%pt%%) " " url(%%ru%%) " ";
-}
-
-/* line 10, simple.scss */
-.flair[title~=ru]:before {
-  content: url(%%ru%%) " ";
-}
+.flair, .link .flair { font-size: 1px; letter-spacing: -1px; color: white; width: auto; }
+
+.flair:after { font-size: 10px; letter-spacing: normal; color: black; text-transform: uppercase; }
+
+.flair[title~=en]:after { content: url(%%en%%); }
+
+.flair[title~=en][title~=nl]:after { content: url(%%en%%) "" url(%%nl%%); }
+
+.flair[title~=en][title~=nl][title~=pt]:after { content: url(%%en%%) "" url(%%nl%%) "" url(%%pt%%); }
+
+.flair[title~=en][title~=nl][title~=de]:after { content: url(%%en%%) "" url(%%nl%%) "" url(%%de%%); }
+
+.flair[title~=en][title~=nl][title~=fr]:after { content: url(%%en%%) "" url(%%nl%%) "" url(%%fr%%); }
+
+.flair[title~=en][title~=nl][title~=es]:after { content: url(%%en%%) "" url(%%nl%%) "" url(%%es%%); }
+
+.flair[title~=en][title~=nl][title~=tr]:after { content: url(%%en%%) "" url(%%nl%%) "" url(%%tr%%); }
+
+.flair[title~=en][title~=nl][title~=ru]:after { content: url(%%en%%) "" url(%%nl%%) "" url(%%ru%%); }
+
+.flair[title~=en][title~=nl][title~=hu]:after { content: url(%%en%%) "" url(%%nl%%) "" url(%%hu%%); }
+
+.flair[title~=en][title~=nl][title~=pl]:after { content: url(%%en%%) "" url(%%nl%%) "" url(%%pl%%); }
+
+.flair[title~=en][title~=nl][title~=ro]:after { content: url(%%en%%) "" url(%%nl%%) "" url(%%ro%%); }
+
+.flair[title~=en][title~=nl][title~=ga]:after { content: url(%%en%%) "" url(%%nl%%) "" url(%%ga%%); }
+
+.flair[title~=en][title~=nl][title~=it]:after { content: url(%%en%%) "" url(%%nl%%) "" url(%%it%%); }
+
+.flair[title~=en][title~=pt]:after { content: url(%%en%%) "" url(%%pt%%); }
+
+.flair[title~=en][title~=pt][title~=de]:after { content: url(%%en%%) "" url(%%pt%%) "" url(%%de%%); }
+
+.flair[title~=en][title~=pt][title~=fr]:after { content: url(%%en%%) "" url(%%pt%%) "" url(%%fr%%); }
+
+.flair[title~=en][title~=pt][title~=es]:after { content: url(%%en%%) "" url(%%pt%%) "" url(%%es%%); }
+
+.flair[title~=en][title~=pt][title~=tr]:after { content: url(%%en%%) "" url(%%pt%%) "" url(%%tr%%); }
+
+.flair[title~=en][title~=pt][title~=ru]:after { content: url(%%en%%) "" url(%%pt%%) "" url(%%ru%%); }
+
+.flair[title~=en][title~=pt][title~=hu]:after { content: url(%%en%%) "" url(%%pt%%) "" url(%%hu%%); }
+
+.flair[title~=en][title~=pt][title~=pl]:after { content: url(%%en%%) "" url(%%pt%%) "" url(%%pl%%); }
+
+.flair[title~=en][title~=pt][title~=ro]:after { content: url(%%en%%) "" url(%%pt%%) "" url(%%ro%%); }
+
+.flair[title~=en][title~=pt][title~=ga]:after { content: url(%%en%%) "" url(%%pt%%) "" url(%%ga%%); }
+
+.flair[title~=en][title~=pt][title~=it]:after { content: url(%%en%%) "" url(%%pt%%) "" url(%%it%%); }
+
+.flair[title~=en][title~=de]:after { content: url(%%en%%) "" url(%%de%%); }
+
+.flair[title~=en][title~=de][title~=fr]:after { content: url(%%en%%) "" url(%%de%%) "" url(%%fr%%); }
+
+.flair[title~=en][title~=de][title~=es]:after { content: url(%%en%%) "" url(%%de%%) "" url(%%es%%); }
+
+.flair[title~=en][title~=de][title~=tr]:after { content: url(%%en%%) "" url(%%de%%) "" url(%%tr%%); }
+
+.flair[title~=en][title~=de][title~=ru]:after { content: url(%%en%%) "" url(%%de%%) "" url(%%ru%%); }
+
+.flair[title~=en][title~=de][title~=hu]:after { content: url(%%en%%) "" url(%%de%%) "" url(%%hu%%); }
+
+.flair[title~=en][title~=de][title~=pl]:after { content: url(%%en%%) "" url(%%de%%) "" url(%%pl%%); }
+
+.flair[title~=en][title~=de][title~=ro]:after { content: url(%%en%%) "" url(%%de%%) "" url(%%ro%%); }
+
+.flair[title~=en][title~=de][title~=ga]:after { content: url(%%en%%) "" url(%%de%%) "" url(%%ga%%); }
+
+.flair[title~=en][title~=de][title~=it]:after { content: url(%%en%%) "" url(%%de%%) "" url(%%it%%); }
+
+.flair[title~=en][title~=fr]:after { content: url(%%en%%) "" url(%%fr%%); }
+
+.flair[title~=en][title~=fr][title~=es]:after { content: url(%%en%%) "" url(%%fr%%) "" url(%%es%%); }
+
+.flair[title~=en][title~=fr][title~=tr]:after { content: url(%%en%%) "" url(%%fr%%) "" url(%%tr%%); }
+
+.flair[title~=en][title~=fr][title~=ru]:after { content: url(%%en%%) "" url(%%fr%%) "" url(%%ru%%); }
+
+.flair[title~=en][title~=fr][title~=hu]:after { content: url(%%en%%) "" url(%%fr%%) "" url(%%hu%%); }
+
+.flair[title~=en][title~=fr][title~=pl]:after { content: url(%%en%%) "" url(%%fr%%) "" url(%%pl%%); }
+
+.flair[title~=en][title~=fr][title~=ro]:after { content: url(%%en%%) "" url(%%fr%%) "" url(%%ro%%); }
+
+.flair[title~=en][title~=fr][title~=ga]:after { content: url(%%en%%) "" url(%%fr%%) "" url(%%ga%%); }
+
+.flair[title~=en][title~=fr][title~=it]:after { content: url(%%en%%) "" url(%%fr%%) "" url(%%it%%); }
+
+.flair[title~=en][title~=es]:after { content: url(%%en%%) "" url(%%es%%); }
+
+.flair[title~=en][title~=es][title~=tr]:after { content: url(%%en%%) "" url(%%es%%) "" url(%%tr%%); }
+
+.flair[title~=en][title~=es][title~=ru]:after { content: url(%%en%%) "" url(%%es%%) "" url(%%ru%%); }
+
+.flair[title~=en][title~=es][title~=hu]:after { content: url(%%en%%) "" url(%%es%%) "" url(%%hu%%); }
+
+.flair[title~=en][title~=es][title~=pl]:after { content: url(%%en%%) "" url(%%es%%) "" url(%%pl%%); }
+
+.flair[title~=en][title~=es][title~=ro]:after { content: url(%%en%%) "" url(%%es%%) "" url(%%ro%%); }
+
+.flair[title~=en][title~=es][title~=ga]:after { content: url(%%en%%) "" url(%%es%%) "" url(%%ga%%); }
+
+.flair[title~=en][title~=es][title~=it]:after { content: url(%%en%%) "" url(%%es%%) "" url(%%it%%); }
+
+.flair[title~=en][title~=tr]:after { content: url(%%en%%) "" url(%%tr%%); }
+
+.flair[title~=en][title~=tr][title~=ru]:after { content: url(%%en%%) "" url(%%tr%%) "" url(%%ru%%); }
+
+.flair[title~=en][title~=tr][title~=hu]:after { content: url(%%en%%) "" url(%%tr%%) "" url(%%hu%%); }
+
+.flair[title~=en][title~=tr][title~=pl]:after { content: url(%%en%%) "" url(%%tr%%) "" url(%%pl%%); }
+
+.flair[title~=en][title~=tr][title~=ro]:after { content: url(%%en%%) "" url(%%tr%%) "" url(%%ro%%); }
+
+.flair[title~=en][title~=tr][title~=ga]:after { content: url(%%en%%) "" url(%%tr%%) "" url(%%ga%%); }
+
+.flair[title~=en][title~=tr][title~=it]:after { content: url(%%en%%) "" url(%%tr%%) "" url(%%it%%); }
+
+.flair[title~=en][title~=ru]:after { content: url(%%en%%) "" url(%%ru%%); }
+
+.flair[title~=en][title~=ru][title~=hu]:after { content: url(%%en%%) "" url(%%ru%%) "" url(%%hu%%); }
+
+.flair[title~=en][title~=ru][title~=pl]:after { content: url(%%en%%) "" url(%%ru%%) "" url(%%pl%%); }
+
+.flair[title~=en][title~=ru][title~=ro]:after { content: url(%%en%%) "" url(%%ru%%) "" url(%%ro%%); }
+
+.flair[title~=en][title~=ru][title~=ga]:after { content: url(%%en%%) "" url(%%ru%%) "" url(%%ga%%); }
+
+.flair[title~=en][title~=ru][title~=it]:after { content: url(%%en%%) "" url(%%ru%%) "" url(%%it%%); }
+
+.flair[title~=en][title~=hu]:after { content: url(%%en%%) "" url(%%hu%%); }
+
+.flair[title~=en][title~=hu][title~=pl]:after { content: url(%%en%%) "" url(%%hu%%) "" url(%%pl%%); }
+
+.flair[title~=en][title~=hu][title~=ro]:after { content: url(%%en%%) "" url(%%hu%%) "" url(%%ro%%); }
+
+.flair[title~=en][title~=hu][title~=ga]:after { content: url(%%en%%) "" url(%%hu%%) "" url(%%ga%%); }
+
+.flair[title~=en][title~=hu][title~=it]:after { content: url(%%en%%) "" url(%%hu%%) "" url(%%it%%); }
+
+.flair[title~=en][title~=pl]:after { content: url(%%en%%) "" url(%%pl%%); }
+
+.flair[title~=en][title~=pl][title~=ro]:after { content: url(%%en%%) "" url(%%pl%%) "" url(%%ro%%); }
+
+.flair[title~=en][title~=pl][title~=ga]:after { content: url(%%en%%) "" url(%%pl%%) "" url(%%ga%%); }
+
+.flair[title~=en][title~=pl][title~=it]:after { content: url(%%en%%) "" url(%%pl%%) "" url(%%it%%); }
+
+.flair[title~=en][title~=ro]:after { content: url(%%en%%) "" url(%%ro%%); }
+
+.flair[title~=en][title~=ro][title~=ga]:after { content: url(%%en%%) "" url(%%ro%%) "" url(%%ga%%); }
+
+.flair[title~=en][title~=ro][title~=it]:after { content: url(%%en%%) "" url(%%ro%%) "" url(%%it%%); }
+
+.flair[title~=en][title~=ga]:after { content: url(%%en%%) "" url(%%ga%%); }
+
+.flair[title~=en][title~=ga][title~=it]:after { content: url(%%en%%) "" url(%%ga%%) "" url(%%it%%); }
+
+.flair[title~=en][title~=it]:after { content: url(%%en%%) "" url(%%it%%); }
+
+.flair[title~=nl]:after { content: url(%%nl%%); }
+
+.flair[title~=nl][title~=pt]:after { content: url(%%nl%%) "" url(%%pt%%); }
+
+.flair[title~=nl][title~=pt][title~=de]:after { content: url(%%nl%%) "" url(%%pt%%) "" url(%%de%%); }
+
+.flair[title~=nl][title~=pt][title~=fr]:after { content: url(%%nl%%) "" url(%%pt%%) "" url(%%fr%%); }
+
+.flair[title~=nl][title~=pt][title~=es]:after { content: url(%%nl%%) "" url(%%pt%%) "" url(%%es%%); }
+
+.flair[title~=nl][title~=pt][title~=tr]:after { content: url(%%nl%%) "" url(%%pt%%) "" url(%%tr%%); }
+
+.flair[title~=nl][title~=pt][title~=ru]:after { content: url(%%nl%%) "" url(%%pt%%) "" url(%%ru%%); }
+
+.flair[title~=nl][title~=pt][title~=hu]:after { content: url(%%nl%%) "" url(%%pt%%) "" url(%%hu%%); }
+
+.flair[title~=nl][title~=pt][title~=pl]:after { content: url(%%nl%%) "" url(%%pt%%) "" url(%%pl%%); }
+
+.flair[title~=nl][title~=pt][title~=ro]:after { content: url(%%nl%%) "" url(%%pt%%) "" url(%%ro%%); }
+
+.flair[title~=nl][title~=pt][title~=ga]:after { content: url(%%nl%%) "" url(%%pt%%) "" url(%%ga%%); }
+
+.flair[title~=nl][title~=pt][title~=it]:after { content: url(%%nl%%) "" url(%%pt%%) "" url(%%it%%); }
+
+.flair[title~=nl][title~=de]:after { content: url(%%nl%%) "" url(%%de%%); }
+
+.flair[title~=nl][title~=de][title~=fr]:after { content: url(%%nl%%) "" url(%%de%%) "" url(%%fr%%); }
+
+.flair[title~=nl][title~=de][title~=es]:after { content: url(%%nl%%) "" url(%%de%%) "" url(%%es%%); }
+
+.flair[title~=nl][title~=de][title~=tr]:after { content: url(%%nl%%) "" url(%%de%%) "" url(%%tr%%); }
+
+.flair[title~=nl][title~=de][title~=ru]:after { content: url(%%nl%%) "" url(%%de%%) "" url(%%ru%%); }
+
+.flair[title~=nl][title~=de][title~=hu]:after { content: url(%%nl%%) "" url(%%de%%) "" url(%%hu%%); }
+
+.flair[title~=nl][title~=de][title~=pl]:after { content: url(%%nl%%) "" url(%%de%%) "" url(%%pl%%); }
+
+.flair[title~=nl][title~=de][title~=ro]:after { content: url(%%nl%%) "" url(%%de%%) "" url(%%ro%%); }
+
+.flair[title~=nl][title~=de][title~=ga]:after { content: url(%%nl%%) "" url(%%de%%) "" url(%%ga%%); }
+
+.flair[title~=nl][title~=de][title~=it]:after { content: url(%%nl%%) "" url(%%de%%) "" url(%%it%%); }
+
+.flair[title~=nl][title~=fr]:after { content: url(%%nl%%) "" url(%%fr%%); }
+
+.flair[title~=nl][title~=fr][title~=es]:after { content: url(%%nl%%) "" url(%%fr%%) "" url(%%es%%); }
+
+.flair[title~=nl][title~=fr][title~=tr]:after { content: url(%%nl%%) "" url(%%fr%%) "" url(%%tr%%); }
+
+.flair[title~=nl][title~=fr][title~=ru]:after { content: url(%%nl%%) "" url(%%fr%%) "" url(%%ru%%); }
+
+.flair[title~=nl][title~=fr][title~=hu]:after { content: url(%%nl%%) "" url(%%fr%%) "" url(%%hu%%); }
+
+.flair[title~=nl][title~=fr][title~=pl]:after { content: url(%%nl%%) "" url(%%fr%%) "" url(%%pl%%); }
+
+.flair[title~=nl][title~=fr][title~=ro]:after { content: url(%%nl%%) "" url(%%fr%%) "" url(%%ro%%); }
+
+.flair[title~=nl][title~=fr][title~=ga]:after { content: url(%%nl%%) "" url(%%fr%%) "" url(%%ga%%); }
+
+.flair[title~=nl][title~=fr][title~=it]:after { content: url(%%nl%%) "" url(%%fr%%) "" url(%%it%%); }
+
+.flair[title~=nl][title~=es]:after { content: url(%%nl%%) "" url(%%es%%); }
+
+.flair[title~=nl][title~=es][title~=tr]:after { content: url(%%nl%%) "" url(%%es%%) "" url(%%tr%%); }
+
+.flair[title~=nl][title~=es][title~=ru]:after { content: url(%%nl%%) "" url(%%es%%) "" url(%%ru%%); }
+
+.flair[title~=nl][title~=es][title~=hu]:after { content: url(%%nl%%) "" url(%%es%%) "" url(%%hu%%); }
+
+.flair[title~=nl][title~=es][title~=pl]:after { content: url(%%nl%%) "" url(%%es%%) "" url(%%pl%%); }
+
+.flair[title~=nl][title~=es][title~=ro]:after { content: url(%%nl%%) "" url(%%es%%) "" url(%%ro%%); }
+
+.flair[title~=nl][title~=es][title~=ga]:after { content: url(%%nl%%) "" url(%%es%%) "" url(%%ga%%); }
+
+.flair[title~=nl][title~=es][title~=it]:after { content: url(%%nl%%) "" url(%%es%%) "" url(%%it%%); }
+
+.flair[title~=nl][title~=tr]:after { content: url(%%nl%%) "" url(%%tr%%); }
+
+.flair[title~=nl][title~=tr][title~=ru]:after { content: url(%%nl%%) "" url(%%tr%%) "" url(%%ru%%); }
+
+.flair[title~=nl][title~=tr][title~=hu]:after { content: url(%%nl%%) "" url(%%tr%%) "" url(%%hu%%); }
+
+.flair[title~=nl][title~=tr][title~=pl]:after { content: url(%%nl%%) "" url(%%tr%%) "" url(%%pl%%); }
+
+.flair[title~=nl][title~=tr][title~=ro]:after { content: url(%%nl%%) "" url(%%tr%%) "" url(%%ro%%); }
+
+.flair[title~=nl][title~=tr][title~=ga]:after { content: url(%%nl%%) "" url(%%tr%%) "" url(%%ga%%); }
+
+.flair[title~=nl][title~=tr][title~=it]:after { content: url(%%nl%%) "" url(%%tr%%) "" url(%%it%%); }
+
+.flair[title~=nl][title~=ru]:after { content: url(%%nl%%) "" url(%%ru%%); }
+
+.flair[title~=nl][title~=ru][title~=hu]:after { content: url(%%nl%%) "" url(%%ru%%) "" url(%%hu%%); }
+
+.flair[title~=nl][title~=ru][title~=pl]:after { content: url(%%nl%%) "" url(%%ru%%) "" url(%%pl%%); }
+
+.flair[title~=nl][title~=ru][title~=ro]:after { content: url(%%nl%%) "" url(%%ru%%) "" url(%%ro%%); }
+
+.flair[title~=nl][title~=ru][title~=ga]:after { content: url(%%nl%%) "" url(%%ru%%) "" url(%%ga%%); }
+
+.flair[title~=nl][title~=ru][title~=it]:after { content: url(%%nl%%) "" url(%%ru%%) "" url(%%it%%); }
+
+.flair[title~=nl][title~=hu]:after { content: url(%%nl%%) "" url(%%hu%%); }
+
+.flair[title~=nl][title~=hu][title~=pl]:after { content: url(%%nl%%) "" url(%%hu%%) "" url(%%pl%%); }
+
+.flair[title~=nl][title~=hu][title~=ro]:after { content: url(%%nl%%) "" url(%%hu%%) "" url(%%ro%%); }
+
+.flair[title~=nl][title~=hu][title~=ga]:after { content: url(%%nl%%) "" url(%%hu%%) "" url(%%ga%%); }
+
+.flair[title~=nl][title~=hu][title~=it]:after { content: url(%%nl%%) "" url(%%hu%%) "" url(%%it%%); }
+
+.flair[title~=nl][title~=pl]:after { content: url(%%nl%%) "" url(%%pl%%); }
+
+.flair[title~=nl][title~=pl][title~=ro]:after { content: url(%%nl%%) "" url(%%pl%%) "" url(%%ro%%); }
+
+.flair[title~=nl][title~=pl][title~=ga]:after { content: url(%%nl%%) "" url(%%pl%%) "" url(%%ga%%); }
+
+.flair[title~=nl][title~=pl][title~=it]:after { content: url(%%nl%%) "" url(%%pl%%) "" url(%%it%%); }
+
+.flair[title~=nl][title~=ro]:after { content: url(%%nl%%) "" url(%%ro%%); }
+
+.flair[title~=nl][title~=ro][title~=ga]:after { content: url(%%nl%%) "" url(%%ro%%) "" url(%%ga%%); }
+
+.flair[title~=nl][title~=ro][title~=it]:after { content: url(%%nl%%) "" url(%%ro%%) "" url(%%it%%); }
+
+.flair[title~=nl][title~=ga]:after { content: url(%%nl%%) "" url(%%ga%%); }
+
+.flair[title~=nl][title~=ga][title~=it]:after { content: url(%%nl%%) "" url(%%ga%%) "" url(%%it%%); }
+
+.flair[title~=nl][title~=it]:after { content: url(%%nl%%) "" url(%%it%%); }
+
+.flair[title~=pt]:after { content: url(%%pt%%); }
+
+.flair[title~=pt][title~=de]:after { content: url(%%pt%%) "" url(%%de%%); }
+
+.flair[title~=pt][title~=de][title~=fr]:after { content: url(%%pt%%) "" url(%%de%%) "" url(%%fr%%); }
+
+.flair[title~=pt][title~=de][title~=es]:after { content: url(%%pt%%) "" url(%%de%%) "" url(%%es%%); }
+
+.flair[title~=pt][title~=de][title~=tr]:after { content: url(%%pt%%) "" url(%%de%%) "" url(%%tr%%); }
+
+.flair[title~=pt][title~=de][title~=ru]:after { content: url(%%pt%%) "" url(%%de%%) "" url(%%ru%%); }
+
+.flair[title~=pt][title~=de][title~=hu]:after { content: url(%%pt%%) "" url(%%de%%) "" url(%%hu%%); }
+
+.flair[title~=pt][title~=de][title~=pl]:after { content: url(%%pt%%) "" url(%%de%%) "" url(%%pl%%); }
+
+.flair[title~=pt][title~=de][title~=ro]:after { content: url(%%pt%%) "" url(%%de%%) "" url(%%ro%%); }
+
+.flair[title~=pt][title~=de][title~=ga]:after { content: url(%%pt%%) "" url(%%de%%) "" url(%%ga%%); }
+
+.flair[title~=pt][title~=de][title~=it]:after { content: url(%%pt%%) "" url(%%de%%) "" url(%%it%%); }
+
+.flair[title~=pt][title~=fr]:after { content: url(%%pt%%) "" url(%%fr%%); }
+
+.flair[title~=pt][title~=fr][title~=es]:after { content: url(%%pt%%) "" url(%%fr%%) "" url(%%es%%); }
+
+.flair[title~=pt][title~=fr][title~=tr]:after { content: url(%%pt%%) "" url(%%fr%%) "" url(%%tr%%); }
+
+.flair[title~=pt][title~=fr][title~=ru]:after { content: url(%%pt%%) "" url(%%fr%%) "" url(%%ru%%); }
+
+.flair[title~=pt][title~=fr][title~=hu]:after { content: url(%%pt%%) "" url(%%fr%%) "" url(%%hu%%); }
+
+.flair[title~=pt][title~=fr][title~=pl]:after { content: url(%%pt%%) "" url(%%fr%%) "" url(%%pl%%); }
+
+.flair[title~=pt][title~=fr][title~=ro]:after { content: url(%%pt%%) "" url(%%fr%%) "" url(%%ro%%); }
+
+.flair[title~=pt][title~=fr][title~=ga]:after { content: url(%%pt%%) "" url(%%fr%%) "" url(%%ga%%); }
+
+.flair[title~=pt][title~=fr][title~=it]:after { content: url(%%pt%%) "" url(%%fr%%) "" url(%%it%%); }
+
+.flair[title~=pt][title~=es]:after { content: url(%%pt%%) "" url(%%es%%); }
+
+.flair[title~=pt][title~=es][title~=tr]:after { content: url(%%pt%%) "" url(%%es%%) "" url(%%tr%%); }
+
+.flair[title~=pt][title~=es][title~=ru]:after { content: url(%%pt%%) "" url(%%es%%) "" url(%%ru%%); }
+
+.flair[title~=pt][title~=es][title~=hu]:after { content: url(%%pt%%) "" url(%%es%%) "" url(%%hu%%); }
+
+.flair[title~=pt][title~=es][title~=pl]:after { content: url(%%pt%%) "" url(%%es%%) "" url(%%pl%%); }
+
+.flair[title~=pt][title~=es][title~=ro]:after { content: url(%%pt%%) "" url(%%es%%) "" url(%%ro%%); }
+
+.flair[title~=pt][title~=es][title~=ga]:after { content: url(%%pt%%) "" url(%%es%%) "" url(%%ga%%); }
+
+.flair[title~=pt][title~=es][title~=it]:after { content: url(%%pt%%) "" url(%%es%%) "" url(%%it%%); }
+
+.flair[title~=pt][title~=tr]:after { content: url(%%pt%%) "" url(%%tr%%); }
+
+.flair[title~=pt][title~=tr][title~=ru]:after { content: url(%%pt%%) "" url(%%tr%%) "" url(%%ru%%); }
+
+.flair[title~=pt][title~=tr][title~=hu]:after { content: url(%%pt%%) "" url(%%tr%%) "" url(%%hu%%); }
+
+.flair[title~=pt][title~=tr][title~=pl]:after { content: url(%%pt%%) "" url(%%tr%%) "" url(%%pl%%); }
+
+.flair[title~=pt][title~=tr][title~=ro]:after { content: url(%%pt%%) "" url(%%tr%%) "" url(%%ro%%); }
+
+.flair[title~=pt][title~=tr][title~=ga]:after { content: url(%%pt%%) "" url(%%tr%%) "" url(%%ga%%); }
+
+.flair[title~=pt][title~=tr][title~=it]:after { content: url(%%pt%%) "" url(%%tr%%) "" url(%%it%%); }
+
+.flair[title~=pt][title~=ru]:after { content: url(%%pt%%) "" url(%%ru%%); }
+
+.flair[title~=pt][title~=ru][title~=hu]:after { content: url(%%pt%%) "" url(%%ru%%) "" url(%%hu%%); }
+
+.flair[title~=pt][title~=ru][title~=pl]:after { content: url(%%pt%%) "" url(%%ru%%) "" url(%%pl%%); }
+
+.flair[title~=pt][title~=ru][title~=ro]:after { content: url(%%pt%%) "" url(%%ru%%) "" url(%%ro%%); }
+
+.flair[title~=pt][title~=ru][title~=ga]:after { content: url(%%pt%%) "" url(%%ru%%) "" url(%%ga%%); }
+
+.flair[title~=pt][title~=ru][title~=it]:after { content: url(%%pt%%) "" url(%%ru%%) "" url(%%it%%); }
+
+.flair[title~=pt][title~=hu]:after { content: url(%%pt%%) "" url(%%hu%%); }
+
+.flair[title~=pt][title~=hu][title~=pl]:after { content: url(%%pt%%) "" url(%%hu%%) "" url(%%pl%%); }
+
+.flair[title~=pt][title~=hu][title~=ro]:after { content: url(%%pt%%) "" url(%%hu%%) "" url(%%ro%%); }
+
+.flair[title~=pt][title~=hu][title~=ga]:after { content: url(%%pt%%) "" url(%%hu%%) "" url(%%ga%%); }
+
+.flair[title~=pt][title~=hu][title~=it]:after { content: url(%%pt%%) "" url(%%hu%%) "" url(%%it%%); }
+
+.flair[title~=pt][title~=pl]:after { content: url(%%pt%%) "" url(%%pl%%); }
+
+.flair[title~=pt][title~=pl][title~=ro]:after { content: url(%%pt%%) "" url(%%pl%%) "" url(%%ro%%); }
+
+.flair[title~=pt][title~=pl][title~=ga]:after { content: url(%%pt%%) "" url(%%pl%%) "" url(%%ga%%); }
+
+.flair[title~=pt][title~=pl][title~=it]:after { content: url(%%pt%%) "" url(%%pl%%) "" url(%%it%%); }
+
+.flair[title~=pt][title~=ro]:after { content: url(%%pt%%) "" url(%%ro%%); }
+
+.flair[title~=pt][title~=ro][title~=ga]:after { content: url(%%pt%%) "" url(%%ro%%) "" url(%%ga%%); }
+
+.flair[title~=pt][title~=ro][title~=it]:after { content: url(%%pt%%) "" url(%%ro%%) "" url(%%it%%); }
+
+.flair[title~=pt][title~=ga]:after { content: url(%%pt%%) "" url(%%ga%%); }
+
+.flair[title~=pt][title~=ga][title~=it]:after { content: url(%%pt%%) "" url(%%ga%%) "" url(%%it%%); }
+
+.flair[title~=pt][title~=it]:after { content: url(%%pt%%) "" url(%%it%%); }
+
+.flair[title~=de]:after { content: url(%%de%%); }
+
+.flair[title~=de][title~=fr]:after { content: url(%%de%%) "" url(%%fr%%); }
+
+.flair[title~=de][title~=fr][title~=es]:after { content: url(%%de%%) "" url(%%fr%%) "" url(%%es%%); }
+
+.flair[title~=de][title~=fr][title~=tr]:after { content: url(%%de%%) "" url(%%fr%%) "" url(%%tr%%); }
+
+.flair[title~=de][title~=fr][title~=ru]:after { content: url(%%de%%) "" url(%%fr%%) "" url(%%ru%%); }
+
+.flair[title~=de][title~=fr][title~=hu]:after { content: url(%%de%%) "" url(%%fr%%) "" url(%%hu%%); }
+
+.flair[title~=de][title~=fr][title~=pl]:after { content: url(%%de%%) "" url(%%fr%%) "" url(%%pl%%); }
+
+.flair[title~=de][title~=fr][title~=ro]:after { content: url(%%de%%) "" url(%%fr%%) "" url(%%ro%%); }
+
+.flair[title~=de][title~=fr][title~=ga]:after { content: url(%%de%%) "" url(%%fr%%) "" url(%%ga%%); }
+
+.flair[title~=de][title~=fr][title~=it]:after { content: url(%%de%%) "" url(%%fr%%) "" url(%%it%%); }
+
+.flair[title~=de][title~=es]:after { content: url(%%de%%) "" url(%%es%%); }
+
+.flair[title~=de][title~=es][title~=tr]:after { content: url(%%de%%) "" url(%%es%%) "" url(%%tr%%); }
+
+.flair[title~=de][title~=es][title~=ru]:after { content: url(%%de%%) "" url(%%es%%) "" url(%%ru%%); }
+
+.flair[title~=de][title~=es][title~=hu]:after { content: url(%%de%%) "" url(%%es%%) "" url(%%hu%%); }
+
+.flair[title~=de][title~=es][title~=pl]:after { content: url(%%de%%) "" url(%%es%%) "" url(%%pl%%); }
+
+.flair[title~=de][title~=es][title~=ro]:after { content: url(%%de%%) "" url(%%es%%) "" url(%%ro%%); }
+
+.flair[title~=de][title~=es][title~=ga]:after { content: url(%%de%%) "" url(%%es%%) "" url(%%ga%%); }
+
+.flair[title~=de][title~=es][title~=it]:after { content: url(%%de%%) "" url(%%es%%) "" url(%%it%%); }
+
+.flair[title~=de][title~=tr]:after { content: url(%%de%%) "" url(%%tr%%); }
+
+.flair[title~=de][title~=tr][title~=ru]:after { content: url(%%de%%) "" url(%%tr%%) "" url(%%ru%%); }
+
+.flair[title~=de][title~=tr][title~=hu]:after { content: url(%%de%%) "" url(%%tr%%) "" url(%%hu%%); }
+
+.flair[title~=de][title~=tr][title~=pl]:after { content: url(%%de%%) "" url(%%tr%%) "" url(%%pl%%); }
+
+.flair[title~=de][title~=tr][title~=ro]:after { content: url(%%de%%) "" url(%%tr%%) "" url(%%ro%%); }
+
+.flair[title~=de][title~=tr][title~=ga]:after { content: url(%%de%%) "" url(%%tr%%) "" url(%%ga%%); }
+
+.flair[title~=de][title~=tr][title~=it]:after { content: url(%%de%%) "" url(%%tr%%) "" url(%%it%%); }
+
+.flair[title~=de][title~=ru]:after { content: url(%%de%%) "" url(%%ru%%); }
+
+.flair[title~=de][title~=ru][title~=hu]:after { content: url(%%de%%) "" url(%%ru%%) "" url(%%hu%%); }
+
+.flair[title~=de][title~=ru][title~=pl]:after { content: url(%%de%%) "" url(%%ru%%) "" url(%%pl%%); }
+
+.flair[title~=de][title~=ru][title~=ro]:after { content: url(%%de%%) "" url(%%ru%%) "" url(%%ro%%); }
+
+.flair[title~=de][title~=ru][title~=ga]:after { content: url(%%de%%) "" url(%%ru%%) "" url(%%ga%%); }
+
+.flair[title~=de][title~=ru][title~=it]:after { content: url(%%de%%) "" url(%%ru%%) "" url(%%it%%); }
+
+.flair[title~=de][title~=hu]:after { content: url(%%de%%) "" url(%%hu%%); }
+
+.flair[title~=de][title~=hu][title~=pl]:after { content: url(%%de%%) "" url(%%hu%%) "" url(%%pl%%); }
+
+.flair[title~=de][title~=hu][title~=ro]:after { content: url(%%de%%) "" url(%%hu%%) "" url(%%ro%%); }
+
+.flair[title~=de][title~=hu][title~=ga]:after { content: url(%%de%%) "" url(%%hu%%) "" url(%%ga%%); }
+
+.flair[title~=de][title~=hu][title~=it]:after { content: url(%%de%%) "" url(%%hu%%) "" url(%%it%%); }
+
+.flair[title~=de][title~=pl]:after { content: url(%%de%%) "" url(%%pl%%); }
+
+.flair[title~=de][title~=pl][title~=ro]:after { content: url(%%de%%) "" url(%%pl%%) "" url(%%ro%%); }
+
+.flair[title~=de][title~=pl][title~=ga]:after { content: url(%%de%%) "" url(%%pl%%) "" url(%%ga%%); }
+
+.flair[title~=de][title~=pl][title~=it]:after { content: url(%%de%%) "" url(%%pl%%) "" url(%%it%%); }
+
+.flair[title~=de][title~=ro]:after { content: url(%%de%%) "" url(%%ro%%); }
+
+.flair[title~=de][title~=ro][title~=ga]:after { content: url(%%de%%) "" url(%%ro%%) "" url(%%ga%%); }
+
+.flair[title~=de][title~=ro][title~=it]:after { content: url(%%de%%) "" url(%%ro%%) "" url(%%it%%); }
+
+.flair[title~=de][title~=ga]:after { content: url(%%de%%) "" url(%%ga%%); }
+
+.flair[title~=de][title~=ga][title~=it]:after { content: url(%%de%%) "" url(%%ga%%) "" url(%%it%%); }
+
+.flair[title~=de][title~=it]:after { content: url(%%de%%) "" url(%%it%%); }
+
+.flair[title~=fr]:after { content: url(%%fr%%); }
+
+.flair[title~=fr][title~=es]:after { content: url(%%fr%%) "" url(%%es%%); }
+
+.flair[title~=fr][title~=es][title~=tr]:after { content: url(%%fr%%) "" url(%%es%%) "" url(%%tr%%); }
+
+.flair[title~=fr][title~=es][title~=ru]:after { content: url(%%fr%%) "" url(%%es%%) "" url(%%ru%%); }
+
+.flair[title~=fr][title~=es][title~=hu]:after { content: url(%%fr%%) "" url(%%es%%) "" url(%%hu%%); }
+
+.flair[title~=fr][title~=es][title~=pl]:after { content: url(%%fr%%) "" url(%%es%%) "" url(%%pl%%); }
+
+.flair[title~=fr][title~=es][title~=ro]:after { content: url(%%fr%%) "" url(%%es%%) "" url(%%ro%%); }
+
+.flair[title~=fr][title~=es][title~=ga]:after { content: url(%%fr%%) "" url(%%es%%) "" url(%%ga%%); }
+
+.flair[title~=fr][title~=es][title~=it]:after { content: url(%%fr%%) "" url(%%es%%) "" url(%%it%%); }
+
+.flair[title~=fr][title~=tr]:after { content: url(%%fr%%) "" url(%%tr%%); }
+
+.flair[title~=fr][title~=tr][title~=ru]:after { content: url(%%fr%%) "" url(%%tr%%) "" url(%%ru%%); }
+
+.flair[title~=fr][title~=tr][title~=hu]:after { content: url(%%fr%%) "" url(%%tr%%) "" url(%%hu%%); }
+
+.flair[title~=fr][title~=tr][title~=pl]:after { content: url(%%fr%%) "" url(%%tr%%) "" url(%%pl%%); }
+
+.flair[title~=fr][title~=tr][title~=ro]:after { content: url(%%fr%%) "" url(%%tr%%) "" url(%%ro%%); }
+
+.flair[title~=fr][title~=tr][title~=ga]:after { content: url(%%fr%%) "" url(%%tr%%) "" url(%%ga%%); }
+
+.flair[title~=fr][title~=tr][title~=it]:after { content: url(%%fr%%) "" url(%%tr%%) "" url(%%it%%); }
+
+.flair[title~=fr][title~=ru]:after { content: url(%%fr%%) "" url(%%ru%%); }
+
+.flair[title~=fr][title~=ru][title~=hu]:after { content: url(%%fr%%) "" url(%%ru%%) "" url(%%hu%%); }
+
+.flair[title~=fr][title~=ru][title~=pl]:after { content: url(%%fr%%) "" url(%%ru%%) "" url(%%pl%%); }
+
+.flair[title~=fr][title~=ru][title~=ro]:after { content: url(%%fr%%) "" url(%%ru%%) "" url(%%ro%%); }
+
+.flair[title~=fr][title~=ru][title~=ga]:after { content: url(%%fr%%) "" url(%%ru%%) "" url(%%ga%%); }
+
+.flair[title~=fr][title~=ru][title~=it]:after { content: url(%%fr%%) "" url(%%ru%%) "" url(%%it%%); }
+
+.flair[title~=fr][title~=hu]:after { content: url(%%fr%%) "" url(%%hu%%); }
+
+.flair[title~=fr][title~=hu][title~=pl]:after { content: url(%%fr%%) "" url(%%hu%%) "" url(%%pl%%); }
+
+.flair[title~=fr][title~=hu][title~=ro]:after { content: url(%%fr%%) "" url(%%hu%%) "" url(%%ro%%); }
+
+.flair[title~=fr][title~=hu][title~=ga]:after { content: url(%%fr%%) "" url(%%hu%%) "" url(%%ga%%); }
+
+.flair[title~=fr][title~=hu][title~=it]:after { content: url(%%fr%%) "" url(%%hu%%) "" url(%%it%%); }
+
+.flair[title~=fr][title~=pl]:after { content: url(%%fr%%) "" url(%%pl%%); }
+
+.flair[title~=fr][title~=pl][title~=ro]:after { content: url(%%fr%%) "" url(%%pl%%) "" url(%%ro%%); }
+
+.flair[title~=fr][title~=pl][title~=ga]:after { content: url(%%fr%%) "" url(%%pl%%) "" url(%%ga%%); }
+
+.flair[title~=fr][title~=pl][title~=it]:after { content: url(%%fr%%) "" url(%%pl%%) "" url(%%it%%); }
+
+.flair[title~=fr][title~=ro]:after { content: url(%%fr%%) "" url(%%ro%%); }
+
+.flair[title~=fr][title~=ro][title~=ga]:after { content: url(%%fr%%) "" url(%%ro%%) "" url(%%ga%%); }
+
+.flair[title~=fr][title~=ro][title~=it]:after { content: url(%%fr%%) "" url(%%ro%%) "" url(%%it%%); }
+
+.flair[title~=fr][title~=ga]:after { content: url(%%fr%%) "" url(%%ga%%); }
+
+.flair[title~=fr][title~=ga][title~=it]:after { content: url(%%fr%%) "" url(%%ga%%) "" url(%%it%%); }
+
+.flair[title~=fr][title~=it]:after { content: url(%%fr%%) "" url(%%it%%); }
+
+.flair[title~=es]:after { content: url(%%es%%); }
+
+.flair[title~=es][title~=tr]:after { content: url(%%es%%) "" url(%%tr%%); }
+
+.flair[title~=es][title~=tr][title~=ru]:after { content: url(%%es%%) "" url(%%tr%%) "" url(%%ru%%); }
+
+.flair[title~=es][title~=tr][title~=hu]:after { content: url(%%es%%) "" url(%%tr%%) "" url(%%hu%%); }
+
+.flair[title~=es][title~=tr][title~=pl]:after { content: url(%%es%%) "" url(%%tr%%) "" url(%%pl%%); }
+
+.flair[title~=es][title~=tr][title~=ro]:after { content: url(%%es%%) "" url(%%tr%%) "" url(%%ro%%); }
+
+.flair[title~=es][title~=tr][title~=ga]:after { content: url(%%es%%) "" url(%%tr%%) "" url(%%ga%%); }
+
+.flair[title~=es][title~=tr][title~=it]:after { content: url(%%es%%) "" url(%%tr%%) "" url(%%it%%); }
+
+.flair[title~=es][title~=ru]:after { content: url(%%es%%) "" url(%%ru%%); }
+
+.flair[title~=es][title~=ru][title~=hu]:after { content: url(%%es%%) "" url(%%ru%%) "" url(%%hu%%); }
+
+.flair[title~=es][title~=ru][title~=pl]:after { content: url(%%es%%) "" url(%%ru%%) "" url(%%pl%%); }
+
+.flair[title~=es][title~=ru][title~=ro]:after { content: url(%%es%%) "" url(%%ru%%) "" url(%%ro%%); }
+
+.flair[title~=es][title~=ru][title~=ga]:after { content: url(%%es%%) "" url(%%ru%%) "" url(%%ga%%); }
+
+.flair[title~=es][title~=ru][title~=it]:after { content: url(%%es%%) "" url(%%ru%%) "" url(%%it%%); }
+
+.flair[title~=es][title~=hu]:after { content: url(%%es%%) "" url(%%hu%%); }
+
+.flair[title~=es][title~=hu][title~=pl]:after { content: url(%%es%%) "" url(%%hu%%) "" url(%%pl%%); }
+
+.flair[title~=es][title~=hu][title~=ro]:after { content: url(%%es%%) "" url(%%hu%%) "" url(%%ro%%); }
+
+.flair[title~=es][title~=hu][title~=ga]:after { content: url(%%es%%) "" url(%%hu%%) "" url(%%ga%%); }
+
+.flair[title~=es][title~=hu][title~=it]:after { content: url(%%es%%) "" url(%%hu%%) "" url(%%it%%); }
+
+.flair[title~=es][title~=pl]:after { content: url(%%es%%) "" url(%%pl%%); }
+
+.flair[title~=es][title~=pl][title~=ro]:after { content: url(%%es%%) "" url(%%pl%%) "" url(%%ro%%); }
+
+.flair[title~=es][title~=pl][title~=ga]:after { content: url(%%es%%) "" url(%%pl%%) "" url(%%ga%%); }
+
+.flair[title~=es][title~=pl][title~=it]:after { content: url(%%es%%) "" url(%%pl%%) "" url(%%it%%); }
+
+.flair[title~=es][title~=ro]:after { content: url(%%es%%) "" url(%%ro%%); }
+
+.flair[title~=es][title~=ro][title~=ga]:after { content: url(%%es%%) "" url(%%ro%%) "" url(%%ga%%); }
+
+.flair[title~=es][title~=ro][title~=it]:after { content: url(%%es%%) "" url(%%ro%%) "" url(%%it%%); }
+
+.flair[title~=es][title~=ga]:after { content: url(%%es%%) "" url(%%ga%%); }
+
+.flair[title~=es][title~=ga][title~=it]:after { content: url(%%es%%) "" url(%%ga%%) "" url(%%it%%); }
+
+.flair[title~=es][title~=it]:after { content: url(%%es%%) "" url(%%it%%); }
+
+.flair[title~=tr]:after { content: url(%%tr%%); }
+
+.flair[title~=tr][title~=ru]:after { content: url(%%tr%%) "" url(%%ru%%); }
+
+.flair[title~=tr][title~=ru][title~=hu]:after { content: url(%%tr%%) "" url(%%ru%%) "" url(%%hu%%); }
+
+.flair[title~=tr][title~=ru][title~=pl]:after { content: url(%%tr%%) "" url(%%ru%%) "" url(%%pl%%); }
+
+.flair[title~=tr][title~=ru][title~=ro]:after { content: url(%%tr%%) "" url(%%ru%%) "" url(%%ro%%); }
+
+.flair[title~=tr][title~=ru][title~=ga]:after { content: url(%%tr%%) "" url(%%ru%%) "" url(%%ga%%); }
+
+.flair[title~=tr][title~=ru][title~=it]:after { content: url(%%tr%%) "" url(%%ru%%) "" url(%%it%%); }
+
+.flair[title~=tr][title~=hu]:after { content: url(%%tr%%) "" url(%%hu%%); }
+
+.flair[title~=tr][title~=hu][title~=pl]:after { content: url(%%tr%%) "" url(%%hu%%) "" url(%%pl%%); }
+
+.flair[title~=tr][title~=hu][title~=ro]:after { content: url(%%tr%%) "" url(%%hu%%) "" url(%%ro%%); }
+
+.flair[title~=tr][title~=hu][title~=ga]:after { content: url(%%tr%%) "" url(%%hu%%) "" url(%%ga%%); }
+
+.flair[title~=tr][title~=hu][title~=it]:after { content: url(%%tr%%) "" url(%%hu%%) "" url(%%it%%); }
+
+.flair[title~=tr][title~=pl]:after { content: url(%%tr%%) "" url(%%pl%%); }
+
+.flair[title~=tr][title~=pl][title~=ro]:after { content: url(%%tr%%) "" url(%%pl%%) "" url(%%ro%%); }
+
+.flair[title~=tr][title~=pl][title~=ga]:after { content: url(%%tr%%) "" url(%%pl%%) "" url(%%ga%%); }
+
+.flair[title~=tr][title~=pl][title~=it]:after { content: url(%%tr%%) "" url(%%pl%%) "" url(%%it%%); }
+
+.flair[title~=tr][title~=ro]:after { content: url(%%tr%%) "" url(%%ro%%); }
+
+.flair[title~=tr][title~=ro][title~=ga]:after { content: url(%%tr%%) "" url(%%ro%%) "" url(%%ga%%); }
+
+.flair[title~=tr][title~=ro][title~=it]:after { content: url(%%tr%%) "" url(%%ro%%) "" url(%%it%%); }
+
+.flair[title~=tr][title~=ga]:after { content: url(%%tr%%) "" url(%%ga%%); }
+
+.flair[title~=tr][title~=ga][title~=it]:after { content: url(%%tr%%) "" url(%%ga%%) "" url(%%it%%); }
+
+.flair[title~=tr][title~=it]:after { content: url(%%tr%%) "" url(%%it%%); }
+
+.flair[title~=ru]:after { content: url(%%ru%%); }
+
+.flair[title~=ru][title~=hu]:after { content: url(%%ru%%) "" url(%%hu%%); }
+
+.flair[title~=ru][title~=hu][title~=pl]:after { content: url(%%ru%%) "" url(%%hu%%) "" url(%%pl%%); }
+
+.flair[title~=ru][title~=hu][title~=ro]:after { content: url(%%ru%%) "" url(%%hu%%) "" url(%%ro%%); }
+
+.flair[title~=ru][title~=hu][title~=ga]:after { content: url(%%ru%%) "" url(%%hu%%) "" url(%%ga%%); }
+
+.flair[title~=ru][title~=hu][title~=it]:after { content: url(%%ru%%) "" url(%%hu%%) "" url(%%it%%); }
+
+.flair[title~=ru][title~=pl]:after { content: url(%%ru%%) "" url(%%pl%%); }
+
+.flair[title~=ru][title~=pl][title~=ro]:after { content: url(%%ru%%) "" url(%%pl%%) "" url(%%ro%%); }
+
+.flair[title~=ru][title~=pl][title~=ga]:after { content: url(%%ru%%) "" url(%%pl%%) "" url(%%ga%%); }
+
+.flair[title~=ru][title~=pl][title~=it]:after { content: url(%%ru%%) "" url(%%pl%%) "" url(%%it%%); }
+
+.flair[title~=ru][title~=ro]:after { content: url(%%ru%%) "" url(%%ro%%); }
+
+.flair[title~=ru][title~=ro][title~=ga]:after { content: url(%%ru%%) "" url(%%ro%%) "" url(%%ga%%); }
+
+.flair[title~=ru][title~=ro][title~=it]:after { content: url(%%ru%%) "" url(%%ro%%) "" url(%%it%%); }
+
+.flair[title~=ru][title~=ga]:after { content: url(%%ru%%) "" url(%%ga%%); }
+
+.flair[title~=ru][title~=ga][title~=it]:after { content: url(%%ru%%) "" url(%%ga%%) "" url(%%it%%); }
+
+.flair[title~=ru][title~=it]:after { content: url(%%ru%%) "" url(%%it%%); }
+
+.flair[title~=hu]:after { content: url(%%hu%%); }
+
+.flair[title~=hu][title~=pl]:after { content: url(%%hu%%) "" url(%%pl%%); }
+
+.flair[title~=hu][title~=pl][title~=ro]:after { content: url(%%hu%%) "" url(%%pl%%) "" url(%%ro%%); }
+
+.flair[title~=hu][title~=pl][title~=ga]:after { content: url(%%hu%%) "" url(%%pl%%) "" url(%%ga%%); }
+
+.flair[title~=hu][title~=pl][title~=it]:after { content: url(%%hu%%) "" url(%%pl%%) "" url(%%it%%); }
+
+.flair[title~=hu][title~=ro]:after { content: url(%%hu%%) "" url(%%ro%%); }
+
+.flair[title~=hu][title~=ro][title~=ga]:after { content: url(%%hu%%) "" url(%%ro%%) "" url(%%ga%%); }
+
+.flair[title~=hu][title~=ro][title~=it]:after { content: url(%%hu%%) "" url(%%ro%%) "" url(%%it%%); }
+
+.flair[title~=hu][title~=ga]:after { content: url(%%hu%%) "" url(%%ga%%); }
+
+.flair[title~=hu][title~=ga][title~=it]:after { content: url(%%hu%%) "" url(%%ga%%) "" url(%%it%%); }
+
+.flair[title~=hu][title~=it]:after { content: url(%%hu%%) "" url(%%it%%); }
+
+.flair[title~=pl]:after { content: url(%%pl%%); }
+
+.flair[title~=pl][title~=ro]:after { content: url(%%pl%%) "" url(%%ro%%); }
+
+.flair[title~=pl][title~=ro][title~=ga]:after { content: url(%%pl%%) "" url(%%ro%%) "" url(%%ga%%); }
+
+.flair[title~=pl][title~=ro][title~=it]:after { content: url(%%pl%%) "" url(%%ro%%) "" url(%%it%%); }
+
+.flair[title~=pl][title~=ga]:after { content: url(%%pl%%) "" url(%%ga%%); }
+
+.flair[title~=pl][title~=ga][title~=it]:after { content: url(%%pl%%) "" url(%%ga%%) "" url(%%it%%); }
+
+.flair[title~=pl][title~=it]:after { content: url(%%pl%%) "" url(%%it%%); }
+
+.flair[title~=ro]:after { content: url(%%ro%%); }
+
+.flair[title~=ro][title~=ga]:after { content: url(%%ro%%) "" url(%%ga%%); }
+
+.flair[title~=ro][title~=ga][title~=it]:after { content: url(%%ro%%) "" url(%%ga%%) "" url(%%it%%); }
+
+.flair[title~=ro][title~=it]:after { content: url(%%ro%%) "" url(%%it%%); }
+
+.flair[title~=ga]:after { content: url(%%ga%%); }
+
+.flair[title~=ga][title~=it]:after { content: url(%%ga%%) "" url(%%it%%); }
+
+.flair[title~=it]:after { content: url(%%it%%); }

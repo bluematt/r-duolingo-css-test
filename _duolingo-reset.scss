@@ -1,3 +1,4 @@
+/* Attempt to hide the default content of the <span class="flair" /> element. */
 .flair, .link .flair {
   font-size:       $flair-size-reset;
   letter-spacing:  $flair-spacing-reset;
@@ -5,6 +6,9 @@
   width:           auto;
 }
 
+.flair:after {
+=======
+/* Reset the :before pseudoclass of the <span class="flair" /> element to something sensible. */
 .flair:before {
   font-size:       $flair-size-display;
   letter-spacing:  $flair-spacing-display;

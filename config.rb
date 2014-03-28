@@ -24,3 +24,5 @@ javascripts_dir = "."
 # sass-convert -R --from scss --to sass . scss && rm -rf sass && mv scss sass
 
 # require "SassySort"
+
+Sass::Plugin.options[:style] = :compressed
