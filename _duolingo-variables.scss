@@ -1,10 +1,6 @@
 /* Get rid of the default flair text */
 $flair-color-reset:      white;
-$flair-color-display:    black;
-
 $flair-size-reset:        1px;
-$flair-size-display:     10px;
-
 $flair-spacing-reset:    -1px;
 
 /* Make the replacement content nicer. */
@@ -14,12 +10,14 @@ $flair-spacing-display:  normal;
 
 /* Levels is the Duolingo level.  Maxes out at 25, I think. */
 $flair-max-levels: 1;
+<<<<<<< HEAD
 // $flair-languages: en de fr eo es pt ru jp it ro hu pl tr ga nl hi cs vi el ko id zh ar;
 $flair-languages: en nl pt de fr es tr ru hu pl ro ga it;
 =======
 
 /* These are Duolingo's two letter codes, which may or may not match with ISO 639-1. */
 $flair-languages: en de fr eo es pt ru;
+>>>>>>> FETCH_HEAD
 
 /* Reddit does not like Unicode one little bit! :-( */
 // $flair-language-separator: "→";
